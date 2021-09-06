@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="sharespace@localhost" uuid="3cbd7dea-48c4-48e7-b1a3-8d4622f74050">
+    <data-source source="LOCAL" name="docker-sharespace@localhost" uuid="23ea7fdd-54d8-4603-a616-d36851b008df">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/sharespace</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5433/compose-postgres</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const AxiosShareSpace = axios.create({
-    baseURL: `http://localhost:9000`,
+    baseURL: `http://localhost:9001`,
     headers: {
         'Access-Control-Allow-Origin' : '*'
     }

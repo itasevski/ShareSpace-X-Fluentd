@@ -10,6 +10,7 @@
     </parent>
     <groupId>mk.ukim.finki</groupId>
     <artifactId>ShareSpace</artifactId>
+    <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>ShareSpace</name>
     <description>Demo project for Spring Boot</description>
@@ -62,6 +63,26 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>${maven-jar-plugin.version}</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>mk.ukim.finki.sharespace.ShareSpaceApplication</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <fork>true</fork>
+                    <executable>C:\Users\Ivo\.jdks\corretto-11.0.11\bin\javac.exe</executable>
                 </configuration>
             </plugin>
         </plugins>
