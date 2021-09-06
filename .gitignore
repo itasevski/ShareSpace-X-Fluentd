@@ -1,0 +1,29 @@
+# dependencies
+ShareSpace/sharespace-frontend/node_modules
+ShareSpace/sharespace-frontend/.pnp
+ShareSpace/sharespace-frontend/.pnp.js
+
+# testing
+ShareSpace/sharespace-frontend/coverage
+
+# production
+ShareSpace/sharespace-frontend/build
+
+# misc
+ShareSpace/sharespace-frontend/.DS_Store
+ShareSpace/sharespace-frontend/.env.local
+ShareSpace/sharespace-frontend/.env.development.local
+ShareSpace/sharespace-frontend/.env.test.local
+ShareSpace/sharespace-frontend/.env.production.local
+
+ShareSpace/sharespace-frontend/npm-debug.log*
+ShareSpace/sharespace-frontend/yarn-debug.log*
+ShareSpace/sharespace-frontend/yarn-error.log*
+
+ShareSpace/project-material/Tasks.txt
+ShareSpace/project-material/AlternativeGeolocationCode.txt
+ShareSpace/project-material/Notes.txt
+ShareSpace/project-material/guide-mk.mp4
+ShareSpace/project-material/guide-eng.mp4
+
+ShareSpace/sharespace-frontend/src/Videos/

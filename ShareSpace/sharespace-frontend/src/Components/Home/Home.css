@@ -1,0 +1,27 @@
+#homeCarouselContainer {
+    background-color: #03a9f4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#homeActionsContainer {
+    margin-top: 45px;
+}
+
+.homeAction {
+    margin-right: 50px;
+}
+
+.homeActionLink {
+    color: black;
+    text-decoration: none;
+}
+
+.homeActionLink:hover {
+    cursor: pointer;
+    color: #03a9f4;
+}
+
+.covidLink:hover {
+    color: red !important;
+}

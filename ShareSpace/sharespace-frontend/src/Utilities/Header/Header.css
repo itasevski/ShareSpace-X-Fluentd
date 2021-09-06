@@ -1,0 +1,29 @@
+#headerIcons {
+    margin-left: auto;
+}
+
+#headerAppBar {
+    background-color: #dcdcdc;
+}
+
+#headerBrandLink {
+    color: black;
+    text-decoration: none;
+}
+
+.headerLink {
+    color: #444444;
+    text-decoration: none;
+}
+
+.headerLink:hover {
+    color: black;
+}
+
+#headerToolbar img {
+    padding-right: 25px;
+}
+
+#headerToolbar img:hover {
+    cursor: pointer;
+}

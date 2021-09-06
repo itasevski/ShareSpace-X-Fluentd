@@ -1,0 +1,16 @@
+#profileContainer {
+    margin-top: 100px;
+}
+
+.profileLinks {
+    color: black;
+    text-decoration: none;
+}
+
+.profileLinks:hover {
+    color: #59bfff;
+}
+
+.userInfo {
+    padding-bottom: 5px;
+}

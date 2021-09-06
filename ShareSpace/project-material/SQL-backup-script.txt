@@ -1,0 +1,29 @@
+-- alter table sharespace_user
+--     add constraint UQ_USER_EMAIL unique (email)
+
+-- alter table sharespace_user
+--     add constraint UQ_USER_USERNAME unique (username)
+
+-- alter table sharespace_offer
+--     add constraint FK_OFFER_CREATOR foreign key (creator_id) references sharespace_user (id)
+--         ON DELETE CASCADE ON UPDATE CASCADE
+
+-- alter table sharespace_notification
+--     add constraint FK_NOTIFICATION_RECIPIENT foreign key (recipient_id) references sharespace_user (id)
+--         ON DELETE CASCADE ON UPDATE CASCADE
+
+-- alter table sharespace_message
+--     add constraint FK_MESSAGE_SENDER foreign key (sender_id) references sharespace_user (id)
+--         ON DELETE CASCADE ON UPDATE CASCADE
+
+-- alter table sharespace_offer_participants
+--     add constraint FK_OFFER_PARTICIPANTS_OFFER foreign key (offer_id) references sharespace_offer (id)
+--         ON DELETE CASCADE ON UPDATE CASCADE
+
+-- alter table sharespace_offer_participants
+--     add constraint FK_OFFER_PARTICIPANTS_PARTICIPANT foreign key (user_id) references sharespace_user (id)
+--         ON DELETE CASCADE ON UPDATE CASCADE
+
+-- alter table sharespace_offer_rendezvouspoints
+--     add constraint FK_OFFER_RENDEZVOUSPOITNS_OFFER foreign key (offer_id) references sharespace_offer (id)
+--         ON DELETE CASCADE ON UPDATE CASCADE
