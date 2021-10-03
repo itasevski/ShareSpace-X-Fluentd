@@ -28,7 +28,14 @@ To avoid referential integrity violations, open the database console in your edi
 
 Additional usage guides are available in the "About" section of the web application.
 
-For the application's Geocoding/Geolocation services, you can use my API key that is available and is already configured in the application.
+For the application's Geocoding/Geolocation services, you must create your own Google Cloud project and an associated Geocode API key.
+
+You can generate one by following the steps in the following link: https://developers.google.com/maps/documentation/javascript/get-api-key#creating-api-keys
+
+Once your key is generated for your newly created project, you need to enable the "Geocoding" API for that concrete project.
+
+Once you have done that, just create a ".env" file in the "sharespace-frontend" directory and paste the following line: 
+"REACT_APP_GEOCODE_API_KEY=<YOUR_API_KEY>", where <YOUR_API_KEY> is your newly generated API key.
 
 #### Helm Release installations using the ShareSpace Helm charts
 Prerequisites:

@@ -11,6 +11,7 @@ ShareSpace/sharespace-frontend/build
 
 # misc
 ShareSpace/sharespace-frontend/.DS_Store
+ShareSpace/sharespace-frontend/.env
 ShareSpace/sharespace-frontend/.env.local
 ShareSpace/sharespace-frontend/.env.development.local
 ShareSpace/sharespace-frontend/.env.test.local
